@@ -6,9 +6,20 @@ body{
     background-color:#DBFFF6
 }
 
-.nav, .crdata{
+.header, .crdata{
     background-color:lightgreen;
-    text-align:center;
+    display: flex;
+    justify-content:center;
+    /* text-align:center; */
+}
+
+
+
+.navlist{
+    list-style:none;
+    display:flex;
+    gap:15px;
+
 }
 
 .h1font{
