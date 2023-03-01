@@ -10,16 +10,15 @@ body{
     background-color:lightgreen;
     display: flex;
     justify-content:center;
+    flex-wrap:wrap;
     /* text-align:center; */
 }
-
 
 
 .navlist{
     list-style:none;
     display:flex;
     gap:15px;
-
 }
 
 .h1font{
