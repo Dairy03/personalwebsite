@@ -6,7 +6,7 @@ body{
     background-color:#DBFFF6
 }
 
-.nav{
+.nav, .crdata{
     background-color:lightgreen;
     text-align:center;
 }
@@ -20,9 +20,4 @@ display: grid;
 gap: 10px;
 grid-template-columns: 3fr 2fr;
 
-}
-
-.crdata{
-    background-color: lightgreen;
-    text-align:center;
 }
