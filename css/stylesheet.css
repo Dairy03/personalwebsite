@@ -16,13 +16,11 @@ body{
 }
 
 .navlist{
-    justify-content:center;
-}
-
-.navlist{
-    list-style:none;
+    list-style: none;
     display:flex;
     gap:15px;
+    justify-content:center;
+    flex-direction:column;
 }
 
 .h1font{
@@ -33,15 +31,40 @@ body{
 display: grid;
 gap: 10px;
 grid-template-columns: 3fr 2fr;
-
 }
 
-@media (max-width:600px){
-    body{
-       background-color:blue;
+.classsection{
+    margin:10px 0px;
+    display:flex;
+    flex-direction:column;
+}
+
+.courseb{
+    border-style: solid;
+    border-color:lightslategrey;
+    border-width: 1px 0px;
+    margin:0px 0px;
+    padding:5px 0px;
+}
+
+
+@media (min-width:600px){
+
+    .def{
+        order:2;
+    }
+    .term{
+        order:3;
     }
 
+    .course, .courseb{
+        display:grid;
+        grid-template-columns: 1fr 2fr;
+        order:1;
+    }
+
+
     .navlist{
-        flex-direction:column;
+        flex-direction:row;
     }
 }
